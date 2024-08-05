@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "datafactory7712001"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"appvm_password": {
+			"value": ""
+		},
+		"mydatalakestorage2001_accountKey": {
+			"value": ""
+		},
+		"mysynapseworkspace7712001_connectionString": {
+			"value": ""
+		},
+		"appvm_properties_typeProperties_host": {
+			"value": "C:\\inetpub\\logs\\LogFiles\\W3SVC1"
+		},
+		"appvm_properties_typeProperties_userId": {
+			"value": "appvm"
+		},
+		"mydatalakestorage2001_properties_typeProperties_url": {
+			"value": "https://mydatalakestorage2001.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
